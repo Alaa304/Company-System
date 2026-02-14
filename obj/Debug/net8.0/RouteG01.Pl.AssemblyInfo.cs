@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RouteG01.Pl")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f05ad2d0676f7c9659dfa4503f45d99adac64418")]
 [assembly: System.Reflection.AssemblyProductAttribute("RouteG01.Pl")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RouteG01.Pl")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
