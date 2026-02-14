@@ -1,0 +1,329 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\RB\\My Projects\\RouteG01MVCProject\\RouteG01.Pl\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\RouteG01.Pl.bundle.scp.css",
+      "PackagePath": "staticwebassets\\RouteG01.Pl.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\RB\\My Projects\\RouteG01MVCProject\\RouteG01.Pl\\wwwroot\\Files\\Images\\56f73a05-4df6-48de-8f7e-917989608a15.jpg",
+      "PackagePath": "staticwebassets\\Files\\Images\\56f73a05-4df6-48de-8f7e-917989608a15.jpg"
+    },
+    {
+      "Id": "D:\\RB\\My Projects\\RouteG01MVCProject\\RouteG01.Pl\\wwwroot\\Files\\Images\\88ce02d5-8e8d-4d34-a2a1-bb0ede28abe8.jpeg",
+      "PackagePath": "staticwebassets\\Files\\Images\\88ce02d5-8e8d-4d34-a2a1-bb0ede28abe8.jpeg"
+    },
+    {
+      "Id": "D:\\RB\\My Projects\\RouteG01MVCProject\\RouteG01.Pl\\wwwroot\\assets\\css\\main.css",
+      "PackagePath": "staticwebassets\\assets\\css\\main.css"
+    },
+    {
+      "Id": "D:\\RB\\My Projects\\RouteG01MVCProject\\RouteG01.Pl\\wwwroot\\assets\\favicon\\README.md",
+      "PackagePath": "staticwebassets\\assets\\favicon\\README.md"
+    },
+    {
+      "Id": "D:\\RB\\My Projects\\RouteG01MVCProject\\RouteG01.Pl\\wwwroot\\assets\\favicon\\android-chrome-144x144.png",
+      "PackagePath": "staticwebassets\\assets\\favicon\\android-chrome-144x144.png"
+    },
+    {
+      "Id": "D:\\RB\\My Projects\\RouteG01MVCProject\\RouteG01.Pl\\wwwroot\\assets\\favicon\\android-chrome-192x192.png",
+      "PackagePath": "staticwebassets\\assets\\favicon\\android-chrome-192x192.png"
+    },
+    {
+      "Id": "D:\\RB\\My Projects\\RouteG01MVCProject\\RouteG01.Pl\\wwwroot\\assets\\favicon\\android-chrome-256x256.png",
+      "PackagePath": "staticwebassets\\assets\\favicon\\android-chrome-256x256.png"
+    },
+    {
+      "Id": "D:\\RB\\My Projects\\RouteG01MVCProject\\RouteG01.Pl\\wwwroot\\assets\\favicon\\android-chrome-36x36.png",
+      "PackagePath": "staticwebassets\\assets\\favicon\\android-chrome-36x36.png"
+    },
+    {
+      "Id": "D:\\RB\\My Projects\\RouteG01MVCProject\\RouteG01.Pl\\wwwroot\\assets\\favicon\\android-chrome-384x384.png",
+      "PackagePath": "staticwebassets\\assets\\favicon\\android-chrome-384x384.png"
+    },
+    {
+      "Id": "D:\\RB\\My Projects\\RouteG01MVCProject\\RouteG01.Pl\\wwwroot\\assets\\favicon\\android-chrome-48x48.png",
+      "PackagePath": "staticwebassets\\assets\\favicon\\android-chrome-48x48.png"
+    },
+    {
+      "Id": "D:\\RB\\My Projects\\RouteG01MVCProject\\RouteG01.Pl\\wwwroot\\assets\\favicon\\android-chrome-512x512.png",
+      "PackagePath": "staticwebassets\\assets\\favicon\\android-chrome-512x512.png"
+    },
+    {
+      "Id": "D:\\RB\\My Projects\\RouteG01MVCProject\\RouteG01.Pl\\wwwroot\\assets\\favicon\\android-chrome-72x72.png",
+      "PackagePath": "staticwebassets\\assets\\favicon\\android-chrome-72x72.png"
+    },
+    {
+      "Id": "D:\\RB\\My Projects\\RouteG01MVCProject\\RouteG01.Pl\\wwwroot\\assets\\favicon\\android-chrome-96x96.png",
+      "PackagePath": "staticwebassets\\assets\\favicon\\android-chrome-96x96.png"
+    },
+    {
+      "Id": "D:\\RB\\My Projects\\RouteG01MVCProject\\RouteG01.Pl\\wwwroot\\assets\\favicon\\apple-touch-icon-114x114.png",
+      "PackagePath": "staticwebassets\\assets\\favicon\\apple-touch-icon-114x114.png"
+    },
+    {
+      "Id": "D:\\RB\\My Projects\\RouteG01MVCProject\\RouteG01.Pl\\wwwroot\\assets\\favicon\\apple-touch-icon-120x120.png",
+      "PackagePath": "staticwebassets\\assets\\favicon\\apple-touch-icon-120x120.png"
+    },
+    {
+      "Id": "D:\\RB\\My Projects\\RouteG01MVCProject\\RouteG01.Pl\\wwwroot\\assets\\favicon\\apple-touch-icon-144x144.png",
+      "PackagePath": "staticwebassets\\assets\\favicon\\apple-touch-icon-144x144.png"
+    },
+    {
+      "Id": "D:\\RB\\My Projects\\RouteG01MVCProject\\RouteG01.Pl\\wwwroot\\assets\\favicon\\apple-touch-icon-152x152.png",
+      "PackagePath": "staticwebassets\\assets\\favicon\\apple-touch-icon-152x152.png"
+    },
+    {
+      "Id": "D:\\RB\\My Projects\\RouteG01MVCProject\\RouteG01.Pl\\wwwroot\\assets\\favicon\\apple-touch-icon-180x180.png",
+      "PackagePath": "staticwebassets\\assets\\favicon\\apple-touch-icon-180x180.png"
+    },
+    {
+      "Id": "D:\\RB\\My Projects\\RouteG01MVCProject\\RouteG01.Pl\\wwwroot\\assets\\favicon\\apple-touch-icon-57x57.png",
+      "PackagePath": "staticwebassets\\assets\\favicon\\apple-touch-icon-57x57.png"
+    },
+    {
+      "Id": "D:\\RB\\My Projects\\RouteG01MVCProject\\RouteG01.Pl\\wwwroot\\assets\\favicon\\apple-touch-icon-60x60.png",
+      "PackagePath": "staticwebassets\\assets\\favicon\\apple-touch-icon-60x60.png"
+    },
+    {
+      "Id": "D:\\RB\\My Projects\\RouteG01MVCProject\\RouteG01.Pl\\wwwroot\\assets\\favicon\\apple-touch-icon-72x72.png",
+      "PackagePath": "staticwebassets\\assets\\favicon\\apple-touch-icon-72x72.png"
+    },
+    {
+      "Id": "D:\\RB\\My Projects\\RouteG01MVCProject\\RouteG01.Pl\\wwwroot\\assets\\favicon\\apple-touch-icon-76x76.png",
+      "PackagePath": "staticwebassets\\assets\\favicon\\apple-touch-icon-76x76.png"
+    },
+    {
+      "Id": "D:\\RB\\My Projects\\RouteG01MVCProject\\RouteG01.Pl\\wwwroot\\assets\\favicon\\apple-touch-icon.png",
+      "PackagePath": "staticwebassets\\assets\\favicon\\apple-touch-icon.png"
+    },
+    {
+      "Id": "D:\\RB\\My Projects\\RouteG01MVCProject\\RouteG01.Pl\\wwwroot\\assets\\favicon\\browserconfig.xml",
+      "PackagePath": "staticwebassets\\assets\\favicon\\browserconfig.xml"
+    },
+    {
+      "Id": "D:\\RB\\My Projects\\RouteG01MVCProject\\RouteG01.Pl\\wwwroot\\assets\\favicon\\favicon-16x16.png",
+      "PackagePath": "staticwebassets\\assets\\favicon\\favicon-16x16.png"
+    },
+    {
+      "Id": "D:\\RB\\My Projects\\RouteG01MVCProject\\RouteG01.Pl\\wwwroot\\assets\\favicon\\favicon-194x194.png",
+      "PackagePath": "staticwebassets\\assets\\favicon\\favicon-194x194.png"
+    },
+    {
+      "Id": "D:\\RB\\My Projects\\RouteG01MVCProject\\RouteG01.Pl\\wwwroot\\assets\\favicon\\favicon-32x32.png",
+      "PackagePath": "staticwebassets\\assets\\favicon\\favicon-32x32.png"
+    },
+    {
+      "Id": "D:\\RB\\My Projects\\RouteG01MVCProject\\RouteG01.Pl\\wwwroot\\assets\\favicon\\favicon.ico",
+      "PackagePath": "staticwebassets\\assets\\favicon\\favicon.ico"
+    },
+    {
+      "Id": "D:\\RB\\My Projects\\RouteG01MVCProject\\RouteG01.Pl\\wwwroot\\assets\\favicon\\html_code.html",
+      "PackagePath": "staticwebassets\\assets\\favicon\\html_code.html"
+    },
+    {
+      "Id": "D:\\RB\\My Projects\\RouteG01MVCProject\\RouteG01.Pl\\wwwroot\\assets\\favicon\\mstile-144x144.png",
+      "PackagePath": "staticwebassets\\assets\\favicon\\mstile-144x144.png"
+    },
+    {
+      "Id": "D:\\RB\\My Projects\\RouteG01MVCProject\\RouteG01.Pl\\wwwroot\\assets\\favicon\\mstile-150x150.png",
+      "PackagePath": "staticwebassets\\assets\\favicon\\mstile-150x150.png"
+    },
+    {
+      "Id": "D:\\RB\\My Projects\\RouteG01MVCProject\\RouteG01.Pl\\wwwroot\\assets\\favicon\\safari-pinned-tab.svg",
+      "PackagePath": "staticwebassets\\assets\\favicon\\safari-pinned-tab.svg"
+    },
+    {
+      "Id": "D:\\RB\\My Projects\\RouteG01MVCProject\\RouteG01.Pl\\wwwroot\\assets\\favicon\\site.webmanifest.json",
+      "PackagePath": "staticwebassets\\assets\\favicon\\site.webmanifest.json"
+    },
+    {
+      "Id": "D:\\RB\\My Projects\\RouteG01MVCProject\\RouteG01.Pl\\wwwroot\\assets\\font\\Poppins-Bold.ttf",
+      "PackagePath": "staticwebassets\\assets\\font\\Poppins-Bold.ttf"
+    },
+    {
+      "Id": "D:\\RB\\My Projects\\RouteG01MVCProject\\RouteG01.Pl\\wwwroot\\assets\\font\\Poppins-Light.ttf",
+      "PackagePath": "staticwebassets\\assets\\font\\Poppins-Light.ttf"
+    },
+    {
+      "Id": "D:\\RB\\My Projects\\RouteG01MVCProject\\RouteG01.Pl\\wwwroot\\assets\\font\\Poppins-Medium.ttf",
+      "PackagePath": "staticwebassets\\assets\\font\\Poppins-Medium.ttf"
+    },
+    {
+      "Id": "D:\\RB\\My Projects\\RouteG01MVCProject\\RouteG01.Pl\\wwwroot\\assets\\font\\Poppins-Regular.ttf",
+      "PackagePath": "staticwebassets\\assets\\font\\Poppins-Regular.ttf"
+    },
+    {
+      "Id": "D:\\RB\\My Projects\\RouteG01MVCProject\\RouteG01.Pl\\wwwroot\\assets\\font\\Poppins-SemiBold.ttf",
+      "PackagePath": "staticwebassets\\assets\\font\\Poppins-SemiBold.ttf"
+    },
+    {
+      "Id": "D:\\RB\\My Projects\\RouteG01MVCProject\\RouteG01.Pl\\wwwroot\\assets\\img\\about-img.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\about-img.jpg"
+    },
+    {
+      "Id": "D:\\RB\\My Projects\\RouteG01MVCProject\\RouteG01.Pl\\wwwroot\\assets\\img\\avatar\\avatar-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\avatar\\avatar-1.jpg"
+    },
+    {
+      "Id": "D:\\RB\\My Projects\\RouteG01MVCProject\\RouteG01.Pl\\wwwroot\\assets\\img\\avatar\\avatar-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\avatar\\avatar-2.jpg"
+    },
+    {
+      "Id": "D:\\RB\\My Projects\\RouteG01MVCProject\\RouteG01.Pl\\wwwroot\\assets\\img\\avatar\\avatar-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\avatar\\avatar-3.jpg"
+    },
+    {
+      "Id": "D:\\RB\\My Projects\\RouteG01MVCProject\\RouteG01.Pl\\wwwroot\\assets\\img\\avatar\\avatar-4.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\avatar\\avatar-4.jpg"
+    },
+    {
+      "Id": "D:\\RB\\My Projects\\RouteG01MVCProject\\RouteG01.Pl\\wwwroot\\assets\\img\\avatar\\avatar-5.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\avatar\\avatar-5.jpg"
+    },
+    {
+      "Id": "D:\\RB\\My Projects\\RouteG01MVCProject\\RouteG01.Pl\\wwwroot\\assets\\img\\avatar\\avatar-6.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\avatar\\avatar-6.jpg"
+    },
+    {
+      "Id": "D:\\RB\\My Projects\\RouteG01MVCProject\\RouteG01.Pl\\wwwroot\\assets\\img\\avatar\\avatar-7.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\avatar\\avatar-7.jpg"
+    },
+    {
+      "Id": "D:\\RB\\My Projects\\RouteG01MVCProject\\RouteG01.Pl\\wwwroot\\assets\\img\\brand\\airbnb.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\brand\\airbnb.svg"
+    },
+    {
+      "Id": "D:\\RB\\My Projects\\RouteG01MVCProject\\RouteG01.Pl\\wwwroot\\assets\\img\\brand\\coca-cola.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\brand\\coca-cola.svg"
+    },
+    {
+      "Id": "D:\\RB\\My Projects\\RouteG01MVCProject\\RouteG01.Pl\\wwwroot\\assets\\img\\brand\\facebook.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\brand\\facebook.svg"
+    },
+    {
+      "Id": "D:\\RB\\My Projects\\RouteG01MVCProject\\RouteG01.Pl\\wwwroot\\assets\\img\\brand\\mandiri.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\brand\\mandiri.svg"
+    },
+    {
+      "Id": "D:\\RB\\My Projects\\RouteG01MVCProject\\RouteG01.Pl\\wwwroot\\assets\\img\\brand\\shopware.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\brand\\shopware.svg"
+    },
+    {
+      "Id": "D:\\RB\\My Projects\\RouteG01MVCProject\\RouteG01.Pl\\wwwroot\\assets\\img\\brand\\spotify.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\brand\\spotify.svg"
+    },
+    {
+      "Id": "D:\\RB\\My Projects\\RouteG01MVCProject\\RouteG01.Pl\\wwwroot\\assets\\img\\brand\\tunnel-id.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\brand\\tunnel-id.svg"
+    },
+    {
+      "Id": "D:\\RB\\My Projects\\RouteG01MVCProject\\RouteG01.Pl\\wwwroot\\assets\\img\\brand\\walmart.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\brand\\walmart.svg"
+    },
+    {
+      "Id": "D:\\RB\\My Projects\\RouteG01MVCProject\\RouteG01.Pl\\wwwroot\\assets\\img\\dots.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\dots.svg"
+    },
+    {
+      "Id": "D:\\RB\\My Projects\\RouteG01MVCProject\\RouteG01.Pl\\wwwroot\\assets\\img\\hero.png",
+      "PackagePath": "staticwebassets\\assets\\img\\hero.png"
+    },
+    {
+      "Id": "D:\\RB\\My Projects\\RouteG01MVCProject\\RouteG01.Pl\\wwwroot\\assets\\img\\inazuma-cover.png",
+      "PackagePath": "staticwebassets\\assets\\img\\inazuma-cover.png"
+    },
+    {
+      "Id": "D:\\RB\\My Projects\\RouteG01MVCProject\\RouteG01.Pl\\wwwroot\\assets\\img\\inazuma-logo.png",
+      "PackagePath": "staticwebassets\\assets\\img\\inazuma-logo.png"
+    },
+    {
+      "Id": "D:\\RB\\My Projects\\RouteG01MVCProject\\RouteG01.Pl\\wwwroot\\assets\\img\\inazuma-nocover.png",
+      "PackagePath": "staticwebassets\\assets\\img\\inazuma-nocover.png"
+    },
+    {
+      "Id": "D:\\RB\\My Projects\\RouteG01MVCProject\\RouteG01.Pl\\wwwroot\\assets\\img\\inazuma-text-monochrome.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\inazuma-text-monochrome.svg"
+    },
+    {
+      "Id": "D:\\RB\\My Projects\\RouteG01MVCProject\\RouteG01.Pl\\wwwroot\\assets\\img\\inazuma-text.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\inazuma-text.svg"
+    },
+    {
+      "Id": "D:\\RB\\My Projects\\RouteG01MVCProject\\RouteG01.Pl\\wwwroot\\assets\\img\\intro-video.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\intro-video.jpg"
+    },
+    {
+      "Id": "D:\\RB\\My Projects\\RouteG01MVCProject\\RouteG01.Pl\\wwwroot\\assets\\img\\portfolio\\portfolio-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\portfolio\\portfolio-1.jpg"
+    },
+    {
+      "Id": "D:\\RB\\My Projects\\RouteG01MVCProject\\RouteG01.Pl\\wwwroot\\assets\\img\\portfolio\\portfolio-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\portfolio\\portfolio-2.jpg"
+    },
+    {
+      "Id": "D:\\RB\\My Projects\\RouteG01MVCProject\\RouteG01.Pl\\wwwroot\\assets\\img\\portfolio\\portfolio-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\portfolio\\portfolio-3.jpg"
+    },
+    {
+      "Id": "D:\\RB\\My Projects\\RouteG01MVCProject\\RouteG01.Pl\\wwwroot\\assets\\img\\portfolio\\portfolio-4.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\portfolio\\portfolio-4.jpg"
+    },
+    {
+      "Id": "D:\\RB\\My Projects\\RouteG01MVCProject\\RouteG01.Pl\\wwwroot\\assets\\img\\portfolio\\portfolio-5.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\portfolio\\portfolio-5.jpg"
+    },
+    {
+      "Id": "D:\\RB\\My Projects\\RouteG01MVCProject\\RouteG01.Pl\\wwwroot\\assets\\img\\portfolio\\portfolio-6.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\portfolio\\portfolio-6.jpg"
+    },
+    {
+      "Id": "D:\\RB\\My Projects\\RouteG01MVCProject\\RouteG01.Pl\\wwwroot\\assets\\img\\preview.png",
+      "PackagePath": "staticwebassets\\assets\\img\\preview.png"
+    },
+    {
+      "Id": "D:\\RB\\My Projects\\RouteG01MVCProject\\RouteG01.Pl\\wwwroot\\assets\\img\\tailwind-css-wordmark.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\tailwind-css-wordmark.svg"
+    },
+    {
+      "Id": "D:\\RB\\My Projects\\RouteG01MVCProject\\RouteG01.Pl\\wwwroot\\assets\\img\\texture.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\texture.svg"
+    },
+    {
+      "Id": "D:\\RB\\My Projects\\RouteG01MVCProject\\RouteG01.Pl\\wwwroot\\assets\\img\\thumbnail\\thumbnail-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\thumbnail\\thumbnail-1.jpg"
+    },
+    {
+      "Id": "D:\\RB\\My Projects\\RouteG01MVCProject\\RouteG01.Pl\\wwwroot\\assets\\img\\thumbnail\\thumbnail-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\thumbnail\\thumbnail-2.jpg"
+    },
+    {
+      "Id": "D:\\RB\\My Projects\\RouteG01MVCProject\\RouteG01.Pl\\wwwroot\\assets\\img\\thumbnail\\thumbnail-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\thumbnail\\thumbnail-3.jpg"
+    },
+    {
+      "Id": "D:\\RB\\My Projects\\RouteG01MVCProject\\RouteG01.Pl\\wwwroot\\assets\\js\\main.js",
+      "PackagePath": "staticwebassets\\assets\\js\\main.js"
+    },
+    {
+      "Id": "D:\\RB\\My Projects\\RouteG01MVCProject\\RouteG01.Pl\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.RouteG01.Pl.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.RouteG01.Pl.props",
+      "PackagePath": "build\\RouteG01.Pl.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.RouteG01.Pl.props",
+      "PackagePath": "buildMultiTargeting\\RouteG01.Pl.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.RouteG01.Pl.props",
+      "PackagePath": "buildTransitive\\RouteG01.Pl.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

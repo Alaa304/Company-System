@@ -1,0 +1,104 @@
+﻿@model EmployeeViewModel
+@{
+    ViewData["Title"] = "Create Employee";
+}
+
+<style>
+    .create-card {
+        background: #ffffff;
+        border-radius: 20px;
+        box-shadow: 0 15px 40px rgba(0,0,0,0.06);
+        padding: 35px;
+    }
+
+    .page-title {
+        font-weight: 700;
+        color: #0d6efd;
+    }
+
+    .form-control,
+    .form-select {
+        border-radius: 10px;
+        border: 1px solid #dee2e6;
+        transition: all 0.3s ease;
+    }
+
+    .form-control:focus,
+    .form-select:focus {
+        border-color: #0d6efd;
+        box-shadow: 0 0 0 0.15rem rgba(13,110,253,.15);
+    }
+
+    .btn-custom {
+        border-radius: 10px;
+        padding: 8px 25px;
+        font-weight: 500;
+    }
+
+    .error-box {
+        background: #f8d7da;
+        padding: 15px;
+        border-radius: 10px;
+        margin-bottom: 20px;
+    }
+</style>
+
+<div class="container mt-5">
+
+    <div class="row justify-content-center">
+
+        <div class="col-lg-8">
+
+            <div class="create-card">
+
+                <h2 class="text-center page-title mb-4">
+                    Create New Employee
+                </h2>
+
+                @if (ViewBag.Errors != null)
+                {
+                    <div class="error-box text-danger">
+                        <ul class="mb-0">
+                            @foreach (var err in ViewBag.Errors)
+                            {
+                                <li>@err</li>
+                            }
+                        </ul>
+                    </div>
+                }
+
+                <form method="post"
+                      asp-controller="Employee"
+                      asp-action="Create"
+                      enctype="multipart/form-data">
+
+                    <div asp-validation-summary="ModelOnly"
+                         class="text-danger mb-3">
+                    </div>
+
+                    <!-- Partial Form -->
+                    <partial name="PartialViews/_CreateEditEmployeePartial" />
+
+                    <div class="text-center mt-4">
+
+                        <input type="submit"
+                               value="Save"
+                               class="btn btn-primary btn-custom me-2" />
+
+                        <a asp-controller="Employee"
+                           asp-action="Index"
+                           class="btn btn-outline-secondary btn-custom">
+                            Back to List
+                        </a>
+
+                    </div>
+
+                </form>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>

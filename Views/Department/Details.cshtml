@@ -1,0 +1,68 @@
+﻿@model DepartmentDetailsDto
+@{
+    ViewData["Title"] = "Department Details";
+}
+
+<div class="container my-5">
+    <h2 class="mb-4 text-center">Department @Model.Name Details</h2>
+
+    <ul class="nav nav-tabs mb-3" id="departmentTabs" role="tablist">
+        <li class="nav-item" role="presentation">
+            <a class="nav-link active" id="general-tab" data-bs-toggle="tab" href="#general" role="tab">General</a>
+        </li>
+        <li class="nav-item" role="presentation">
+            <a class="nav-link" id="administration-tab" data-bs-toggle="tab" href="#administration" role="tab">Administration</a>
+        </li>
+    </ul>
+
+    <div class="tab-content">
+        <!-- General -->
+        <div class="tab-pane fade show active p-4 border" id="general" role="tabpanel">
+            <div class="row g-3">
+                <div class="col-md-6">
+                    <label class="form-label">Code</label>
+                    <input class="form-control" value="@Model.Code" readonly />
+                </div>
+                <div class="col-md-6">
+                    <label class="form-label">Name</label>
+                    <input class="form-control" value="@Model.Name" readonly />
+                </div>
+                <div class="col-12">
+                    <label class="form-label">Description</label>
+                    <textarea class="form-control" readonly>@Model.Description</textarea>
+                </div>
+                <div class="col-12">
+                    <label class="form-label">Date Of Creation</label>
+                    <input class="form-control" value="@(Model.DateOfCreation?.ToString("yyyy-MM-dd"))" readonly />
+                </div>
+            </div>
+        </div>
+
+        <!-- Administration -->
+        <div class="tab-pane fade p-4 border" id="administration" role="tabpanel">
+            <div class="row g-3">
+                <div class="col-12">
+                    <label class="form-label">Created By</label>
+                    <input class="form-control" value="@Model.CreatedBy" readonly />
+                </div>
+                <div class="col-12">
+                    <label class="form-label">Created On</label>
+                    <input class="form-control" value="@(Model.DateOfCreation?.ToString("yyyy-MM-dd"))" readonly />
+                </div>
+                <div class="col-12">
+                    <label class="form-label">Last Modified By</label>
+                    <input class="form-control" value="@Model.LastModifiedBy" readonly />
+                </div>
+                <div class="col-12">
+                    <label class="form-label">Last Modification On</label>
+                    <input class="form-control" value="@(Model.LastModificationOn?.ToString("yyyy-MM-dd"))" readonly />
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="mt-4 d-flex gap-2 justify-content-center">
+        <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-success">Edit</a>
+        <a asp-action="Index" class="btn btn-outline-dark">Back To list</a>
+    </div>
+</div>

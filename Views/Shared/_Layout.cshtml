@@ -1,0 +1,128 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - CompanySystem</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="~/assets/css/main.css" />
+    <link rel="stylesheet" href="~/RouteG01.Pl.styles.css" asp-append-version="true" />
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+          crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Smooth Scroll -->
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+        body {
+            padding-top: 80px; /* عشان Navbar ثابت */
+        }
+    </style>
+</head>
+
+<body class="bg-light">
+
+    <!-- Navbar -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom shadow-sm fixed-top">
+            <div class="container">
+
+                <!-- Logo -->
+                <a class="navbar-brand fw-bold" href="@Url.Action("Index","Home")">
+                    CompanySystem
+                </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#mainNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="mainNavbar">
+                    <ul class="navbar-nav ms-auto align-items-center gap-2">
+
+                        <!-- Home (Scroll) -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="@Url.Action("Index","Home")#home">
+                                <i class="fa-solid fa-house me-1"></i> Home
+                            </a>
+                        </li>
+
+                        <!-- Services (Scroll) -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="@Url.Action("Index","Home")#services">
+                                <i class="fa-solid fa-gear me-1"></i> Services
+                            </a>
+                        </li>
+
+                        <!-- Team (Scroll) -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="@Url.Action("Index","Home")#team">
+                                <i class="fa-solid fa-people-group me-1"></i> Team
+                            </a>
+                        </li>
+
+                        <!-- Contact (Scroll) -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="@Url.Action("Index","Home")#contact">
+                                <i class="fa-solid fa-envelope me-1"></i> Contact
+                            </a>
+                        </li>
+
+                        <!-- Departments (Page) -->
+                        <li class="nav-item">
+                            <a class="nav-link" asp-controller="Department" asp-action="Index">
+                                <i class="fa-solid fa-building me-1"></i> Departments
+                            </a>
+                        </li>
+
+                        <!-- Employees (Page) -->
+                        <li class="nav-item">
+                            <a class="nav-link" asp-controller="Employee" asp-action="Index">
+                                <i class="fa-solid fa-users me-1"></i> Employees
+                            </a>
+                        </li>
+
+                        <!-- Sign Out -->
+                        <li class="nav-item ms-lg-3">
+                            <a class="btn btn-outline-danger btn-sm" asp-controller="Account" asp-action="SignOut">
+                                <i class="fa-solid fa-right-from-bracket me-1"></i> Sign Out
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main role="main">
+        @RenderBody()
+    </main>
+
+    <!-- Footer -->
+    <footer class="border-top bg-white text-muted py-3 mt-5">
+        <div class="container text-center small">
+            &copy; 2025 - CompanySystem
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/assets/js/main.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+
+    @await RenderSectionAsync("Scripts", required: false)
+    @RenderSection("ValidationSection", required: false)
+
+</body>
+</html>

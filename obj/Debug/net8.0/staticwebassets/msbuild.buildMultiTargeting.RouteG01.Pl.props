@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\RouteG01.Pl.props" />
+</Project>

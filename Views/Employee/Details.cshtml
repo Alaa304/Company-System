@@ -1,0 +1,205 @@
+﻿@model EmployeeDetailsDto
+@{
+    ViewData["Title"] = "Employee Details";
+}
+
+<style>
+    .details-card {
+        background: #ffffff;
+        border-radius: 20px;
+        box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+        padding: 30px;
+    }
+
+    .profile-img-wrapper {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 25px;
+    }
+
+    .profile-img {
+        width: 160px;
+        height: 160px;
+        object-fit: cover;
+        border-radius: 50%;
+        border: 5px solid #e3f2fd;
+        box-shadow: 0 8px 20px rgba(13,110,253,0.15);
+    }
+
+    .section-title {
+        font-weight: 600;
+        color: #0d6efd;
+        margin-bottom: 20px;
+    }
+
+    .form-control[readonly] {
+        background-color: #f1f3f5;
+        border: 1px solid #dee2e6;
+        color: #495057;
+    }
+
+    .nav-tabs .nav-link.active {
+        background-color: #0d6efd;
+        color: white !important;
+        border-radius: 10px 10px 0 0;
+    }
+
+    .nav-tabs .nav-link {
+        color: #6c757d;
+        font-weight: 500;
+    }
+
+    .btn-custom {
+        border-radius: 10px;
+        padding: 8px 20px;
+    }
+</style>
+
+<div class="container mt-5">
+
+    <div class="details-card">
+
+        <!-- Image -->
+        <div class="profile-img-wrapper">
+            @if (string.IsNullOrEmpty(Model.Image))
+            {
+                <img src="https://via.placeholder.com/160"
+                     class="profile-img"
+                     alt="No Image" />
+            }
+            else
+            {
+                <img src="~/Files/Images/@Model.Image"
+                     class="profile-img"
+                     alt="Employee Image" />
+            }
+        </div>
+
+        <h2 class="text-center mb-4 text-primary fw-bold">@Model.Name</h2>
+
+        <!-- Tabs -->
+        <ul class="nav nav-tabs mb-4" id="employeeTabs" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link active"
+                   data-bs-toggle="tab"
+                   href="#general"
+                   role="tab">General</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link"
+                   data-bs-toggle="tab"
+                   href="#administration"
+                   role="tab">Administration</a>
+            </li>
+        </ul>
+
+        <div class="tab-content">
+
+            <!-- General -->
+            <div class="tab-pane fade show active" id="general">
+
+                <div class="row g-3">
+
+                    <div class="col-md-6">
+                        <label class="form-label">Email</label>
+                        <input value="@Model.Email" class="form-control" readonly />
+                    </div>
+
+                    <div class="col-md-6">
+                        <label class="form-label">Phone</label>
+                        <input value="@Model.PhoneNumber" class="form-control" readonly />
+                    </div>
+
+                    <div class="col-md-6">
+                        <label class="form-label">Address</label>
+                        <input value="@Model.Address" class="form-control" readonly />
+                    </div>
+
+                    <div class="col-md-6">
+                        <label class="form-label">Age</label>
+                        <input value="@Model.Age" class="form-control" readonly />
+                    </div>
+
+                    <div class="col-md-6">
+                        <label class="form-label">Department</label>
+                        <input value="@Model.Department" class="form-control" readonly />
+                    </div>
+
+                    <div class="col-md-6">
+                        <label class="form-label">Salary</label>
+                        <input value="@Model.Salary" class="form-control" readonly />
+                    </div>
+
+                    <div class="col-md-6">
+                        <label class="form-label">Hiring Date</label>
+                        <input value="@Model.HiringDate" class="form-control" readonly />
+                    </div>
+
+                    <div class="col-md-6">
+                        <label class="form-label">Gender</label>
+                        <input value="@Model.Gender" class="form-control" readonly />
+                    </div>
+
+                    <div class="col-md-6">
+                        <label class="form-label">Employee Type</label>
+                        <input value="@Model.EmployeeType" class="form-control" readonly />
+                    </div>
+
+                    <div class="col-md-6 d-flex align-items-center">
+                        <input type="checkbox"
+                               @(Model.IsActive ? "checked" : "")
+                               disabled
+                               class="form-check-input me-2" />
+                        <label class="form-check-label">Active</label>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Administration -->
+            <div class="tab-pane fade" id="administration">
+
+                <div class="row g-3">
+
+                    <div class="col-md-6">
+                        <label class="form-label">Created By</label>
+                        <input value="@Model.CreatedBy" class="form-control" readonly />
+                    </div>
+
+                    <div class="col-md-6">
+                        <label class="form-label">Created On</label>
+                        <input value="@Model.CreatedOn" class="form-control" readonly />
+                    </div>
+
+                    <div class="col-md-6">
+                        <label class="form-label">Last Modified By</label>
+                        <input value="@Model.LastModifiedBy" class="form-control" readonly />
+                    </div>
+
+                    <div class="col-md-6">
+                        <label class="form-label">Last Modified On</label>
+                        <input value="@Model.LastModifiedOn" class="form-control" readonly />
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Buttons -->
+        <div class="text-center mt-4">
+            <a asp-action="Edit"
+               asp-route-id="@Model.Id"
+               class="btn btn-primary btn-custom me-2">
+                Edit
+            </a>
+
+            <a asp-action="Index"
+               class="btn btn-outline-secondary btn-custom">
+                Back To List
+            </a>
+        </div>
+
+    </div>
+</div>

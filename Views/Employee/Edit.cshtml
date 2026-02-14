@@ -1,0 +1,163 @@
+﻿@model EmployeeViewModel
+@{
+    ViewData["Title"] = "Edit Employee";
+}
+
+<style>
+    body {
+        background: linear-gradient(135deg, #eef2f7, #dbe6f1);
+    }
+
+    .edit-card {
+        border-radius: 20px;
+        background-color: #ffffff;
+        box-shadow: 0 15px 40px rgba(0, 0, 0, 0.08);
+        padding: 40px;
+        transition: 0.3s ease-in-out;
+    }
+
+    .edit-card:hover {
+        transform: translateY(-5px);
+    }
+
+    .form-control, .form-select {
+        border-radius: 12px;
+        border: 1px solid #ced4da;
+        padding: 10px 14px;
+    }
+
+    .form-control:focus, .form-select:focus {
+        border-color: #0d6efd;
+        box-shadow: 0 0 0 0.15rem rgba(13, 110, 253, 0.25);
+    }
+
+    .btn-save {
+        background: linear-gradient(135deg, #0d6efd, #3a7bd5);
+        border: none;
+        padding: 10px 30px;
+        border-radius: 12px;
+        font-weight: 600;
+        transition: 0.3s;
+    }
+
+    .btn-save:hover {
+        transform: scale(1.05);
+        opacity: 0.9;
+    }
+
+    .btn-back {
+        border-radius: 12px;
+        padding: 10px 25px;
+    }
+
+    .section-title {
+        font-weight: 700;
+        color: #1f3c88;
+        margin-bottom: 25px;
+    }
+
+    .upload-box {
+        border: 2px dashed #0d6efd;
+        border-radius: 15px;
+        padding: 20px;
+        text-align: center;
+        cursor: pointer;
+        transition: 0.3s;
+        background-color: #f8fbff;
+    }
+
+    .upload-box:hover {
+        background-color: #e7f1ff;
+    }
+</style>
+
+<div class="container mt-5 mb-5">
+    <div class="row justify-content-center">
+        <div class="col-lg-8">
+            <div class="edit-card">
+
+                <h2 class="section-title text-center">✏️ Edit Employee</h2>
+
+                <form method="post"
+                      asp-controller="Employee"
+                      asp-action="Edit"
+                      asp-route-id="@Model.Id"
+                      enctype="multipart/form-data">
+
+                    <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+
+                    <!-- Name -->
+                    <div class="mb-3">
+                        <label asp-for="Name" class="form-label fw-semibold"></label>
+                        <input asp-for="Name" class="form-control" />
+                        <span asp-validation-for="Name" class="text-danger"></span>
+                    </div>
+
+                    <!-- Email -->
+                    <div class="mb-3">
+                        <label asp-for="Email" class="form-label fw-semibold"></label>
+                        <input asp-for="Email" class="form-control" />
+                        <span asp-validation-for="Email" class="text-danger"></span>
+                    </div>
+
+                    <!-- Salary + Age -->
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <label asp-for="Salary" class="form-label fw-semibold"></label>
+                            <input asp-for="Salary" class="form-control" />
+                            <span asp-validation-for="Salary" class="text-danger"></span>
+                        </div>
+
+                        <div class="col-md-6 mb-3">
+                            <label asp-for="Age" class="form-label fw-semibold"></label>
+                            <input asp-for="Age" class="form-control" />
+                            <span asp-validation-for="Age" class="text-danger"></span>
+                        </div>
+                    </div>
+
+                    <!-- Department -->
+                    <div class="mb-3">
+                        <label asp-for="DepartmentId" class="form-label fw-semibold"></label>
+                        <select asp-for="DepartmentId"
+                                asp-items="Model.Departments"
+                                class="form-select">
+                            <option value="">-- Select Department --</option>
+                        </select>
+                        <span asp-validation-for="DepartmentId" class="text-danger"></span>
+                    </div>
+
+                    <!-- Address -->
+                    <div class="mb-3">
+                        <label asp-for="Address" class="form-label fw-semibold"></label>
+                        <input asp-for="Address" class="form-control" />
+                    </div>
+
+                    <!-- Image Upload -->
+                    <div class="mb-4">
+                        <label class="form-label fw-semibold">Employee Image</label>
+
+                        <div class="upload-box">
+                            <input type="file" asp-for="Image" class="form-control border-0" />
+                            <small class="text-muted">Upload new image (optional)</small>
+                        </div>
+                    </div>
+
+                    <!-- Buttons -->
+                    <div class="text-center mt-4">
+                        <button type="submit" class="btn btn-save text-white me-3">
+                            💾 Save Changes
+                        </button>
+
+                        <a asp-controller="Employee"
+                           asp-action="Index"
+                           class="btn btn-outline-secondary btn-back">
+                            ← Back to List
+                        </a>
+                    </div>
+
+                </form>
+
+            </div>
+        </div>
+    </div>
+</div>

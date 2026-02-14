@@ -1,0 +1,134 @@
+﻿@model IEnumerable<DepartmentDto>
+@{
+    ViewData["Title"] = "All Departments";
+}
+
+<style>
+    .departments-container {
+        background-color: #f5f7fa;
+        padding: 30px;
+        border-radius: 15px;
+    }
+
+    .departments-table {
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+    }
+
+    .departments-table thead {
+        background-color: #0d6efd;
+        color: white;
+    }
+
+    .departments-table tbody tr:hover {
+        background-color: #e9f2ff;
+        transition: background-color 0.3s ease;
+    }
+
+    .btn-create {
+        border-radius: 10px;
+        background-color: #0d6efd;
+        color: white;
+        transition: all 0.3s ease;
+    }
+
+    .btn-create:hover {
+        background-color: #0b5ed7;
+        color: white;
+    }
+
+    .btn-action {
+        border-radius: 8px;
+        padding: 4px 10px;
+        font-size: 0.9rem;
+    }
+
+    .modal-content {
+        border-radius: 12px;
+    }
+</style>
+
+<div class="container my-5 departments-container">
+    <h2 class="mb-4 text-center" style="color:#0d6efd; font-weight:700;">All Departments</h2>
+
+    <div class="text-center mb-4">
+        <a class="btn btn-create" asp-controller="Department" asp-action="Create">
+            <i class="fas fa-plus me-2"></i>Create Department
+        </a>
+    </div>
+
+    @if(Model.Any())
+    {
+        <div class="table-responsive">
+            <table class="table table-hover text-center departments-table">
+                <thead>
+                    <tr>
+                        <th>Code</th>
+                        <th>Name</th>
+                        <th>Description</th>
+                        <th>Date Of Creation</th>
+                        <th>Details</th>
+                        <th>Update</th>
+                        <th>Delete</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach(var dept in Model)
+                    {
+                        <tr>
+                            <td>@dept.Code</td>
+                            <td>@dept.Name</td>
+                            <td>@dept.Description</td>
+                            <td>@dept.DateOfCreation?.ToString("yyyy-MM-dd")</td>
+
+                            <td>
+                                <a class="btn btn-info btn-action" asp-action="Details" asp-route-id="@dept.DeptId">
+                                    <i class="fas fa-info-circle"></i> Details
+                                </a>
+                            </td>
+                            <td>
+                                <a class="btn btn-success btn-action" asp-action="Edit" asp-route-id="@dept.DeptId">
+                                    <i class="fas fa-edit"></i> Edit
+                                </a>
+                            </td>
+                            <td>
+                                <button type="button" class="btn btn-danger btn-action" data-bs-toggle="modal" data-bs-target="#DeleteModal-@dept.DeptId">
+                                    <i class="fas fa-trash"></i> Delete
+                                </button>
+
+                                <!-- Delete Modal -->
+                                <div class="modal fade" id="DeleteModal-@dept.DeptId" tabindex="-1">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title">Delete Department</h5>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                                            </div>
+                                            <div class="modal-body text-center">
+                                                Are you sure you want to delete <strong>@dept.Name</strong>?
+                                            </div>
+                                            <div class="modal-footer">
+                                                <form asp-action="Delete" asp-controller="Department" asp-route-id="@dept.DeptId">
+                                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                                                    <button type="submit" class="btn btn-danger">Delete</button>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </td>
+
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    }
+    else
+    {
+        <div class="alert alert-info text-center">
+            No Departments Found!
+        </div>
+    }
+</div>
