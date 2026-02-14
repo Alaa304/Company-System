@@ -7,13 +7,13 @@
 ## 🖥️ Screenshots
 
 ### Home Page
-![Home](./images/Photo1.jpeg)
+![Home](../images/Photo1.jpeg)
 
 ### Departments Page
-![Departments](./images/Photo2.jpeg)
+![Departments](../images/Photo2.jpeg)
 
 ### Employees Page
-![Employees](./images/Photo3.jpeg)
+![Employees](../images/Photo3.jpeg)
 
 ---
 
