@@ -7,15 +7,16 @@
 ## 🖥️ Screenshots
 
 ### Home Page
-![Home](../images/Photo1.jpeg)
+![Home](README/images/Photo1.jpeg)
 
 ### Departments Page
-![Departments](../images/Photo2.jpeg)
+![Departments](README/images/Photo2.jpeg)
 
 ### Employees Page
-![Employees](../images/Photo3.jpeg)
+![Employees](README/images/Photo3.jpeg)
 
 ---
+
 
 ## ⚙️ Key Features
 
